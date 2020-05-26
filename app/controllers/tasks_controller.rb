@@ -5,6 +5,11 @@ class TasksController < ApplicationController
 
   def show
     @task = Task.find(params[:id])
+    if @task.completed == true
+      @message = "This task is completed"
+    else
+      @message = "This task has to be completed"
+    end
   end
 
   def new
