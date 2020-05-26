@@ -1,3 +1,21 @@
 // Place all the styles related to the Tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+h2{
+  font-size: 32px;
+  font-weight: medium;
+}
+
+h1, h2, p, a{
+  font-family: Roboto;
+}
+.details-box{
+  box-shadow: 5px 5px 5px lightgrey;
+  margin: 35px 20px;
+  padding: 20px;
+}
+
+// .far{
+//   height: 40px;
+//   width: 40px;
+// }
